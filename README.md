@@ -50,8 +50,6 @@ Authorization: JWT <your_access_token>
 4. Now all requests from your browser will include the token
 ```
 
-> Redis must be running for caching and Celery to work: `redis-server`
-
 ## ✨ Features
 
 - Product listing with search, filtering, and ordering
@@ -66,6 +64,8 @@ Authorization: JWT <your_access_token>
 ## 📄 Documentation
 
 See the [Full API Documentation](docs/ekart_api_docs.pdf) for all endpoints, request/response fields, and example workflows.
+
+> Redis must be running for caching and Celery to work: `redis-server`
 
 ## 📬 API Base URL
 ```
