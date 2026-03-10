@@ -44,7 +44,7 @@ python manage.py runserver
 
 ## 📄 Documentation
 
-See the [Full API Documentation](docs/ekart_api_docs.docx) for all endpoints, request/response fields, and example workflows.
+See the [Full API Documentation](docs/ekart_api_docs.pdf) for all endpoints, request/response fields, and example workflows.
 
 ## 📬 API Base URL
 ```
