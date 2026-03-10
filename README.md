@@ -16,16 +16,25 @@ A full-featured e-commerce REST API built with Django REST Framework, JWT authen
 git clone https://github.com/your-username/Ekart.git
 cd Ekart
 
-# 2. Install dependencies
+# 2. Create and activate virtual environment
+python -m venv env
+
+# On Windows
+env\Scripts\activate
+
+# On Mac/Linux
+source env/bin/activate
+
+# 3. Install dependencies
 pip install -r requirements.txt
 
-# 3. Apply migrations
+# 4. Apply migrations
 python manage.py migrate
 
-# 4. Create a superuser (admin)
+# 5. Create a superuser (admin)
 python manage.py createsuperuser
 
-# 5. Start the server
+# 6. Start the server
 python manage.py runserver
 ```
 
