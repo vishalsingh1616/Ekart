@@ -37,6 +37,18 @@ python manage.py createsuperuser
 # 6. Start the server
 python manage.py runserver
 ```
+## 🧪 Testing the API
+
+To test authenticated endpoints, you need to send the JWT token in the request header:
+```
+Authorization: JWT <your_access_token>
+1. Install [ModHeader](https://modheader.com/) for Chrome or Firefox
+2. Click the extension icon
+3. Add a request header:
+   - Name: `Authorization`
+   - Value: `JWT <paste_token_here>`
+4. Now all requests from your browser will include the token
+```
 
 > Redis must be running for caching and Celery to work: `redis-server`
 
